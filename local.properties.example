@@ -1,0 +1,11 @@
+# Copy this file to local.properties and fill it in. local.properties is git-ignored.
+#
+# DEMO ONLY: this key is compiled into the APK and can be extracted from it.
+# Create a key just for this app at https://platform.openai.com/api-keys and
+# revoke it when you are done. For anything you distribute, replace
+# BuildConfigApiKeyProvider with a backend that mints ephemeral tokens
+# (see README.md, "Going to production").
+OPENAI_API_KEY=
+
+# Android SDK location (Android Studio fills this in automatically)
+# sdk.dir=C\:\Users\you\AppData\Local\Android\Sdk

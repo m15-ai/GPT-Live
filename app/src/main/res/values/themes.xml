@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.GptLive" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>

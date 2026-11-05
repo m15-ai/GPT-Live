@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+
+# Local config (contains backend secrets + SDK path) — never commit
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing
+*.jks
+*.keystore
+
+# Logs and scratch
+*.log
+logcat*.txt
