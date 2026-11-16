@@ -9,6 +9,12 @@ locally in Room.
 > That is fine for trying it on your own phone and wrong for anything you
 > distribute. See [Going to production](#going-to-production).
 
+<p align="center">
+  <img src="docs/screenshots/live-session.png" width="30%" alt="Live session with the audio orb">
+  <img src="docs/screenshots/tool-calls.png" width="30%" alt="Transcript showing the timer and battery tool calls">
+  <img src="docs/screenshots/settings.png" width="30%" alt="Settings screen">
+</p>
+
 ## Features
 
 - Kotlin + Jetpack Compose, single activity, no DI framework (a small `ServiceLocator`)
