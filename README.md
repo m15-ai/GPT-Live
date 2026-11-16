@@ -176,6 +176,40 @@ The session also reports `session.usage.updated` about once a minute
 (cumulative billed seconds and context-window ratio); the ViewModel keeps the
 latest values in `AgentUiState`.
 
+## Voices
+
+The voice picker offers the 22 built-in GPT-Live voices (list as of
+2026-10-16). "Natural" voices are modelled on a recorded speaker; the rest are
+generated. The id is what goes in `session.start`.
+
+| Voice | Id | Language | Accent | Style | Natural |
+| --- | --- | --- | --- | --- | --- |
+| Marin (default) | `marin` | | | | |
+| Quartz | `quartz` | English | Australian | Feminine | |
+| Ripple | `ripple` | English | Australian | Masculine | ✓ |
+| Vesper | `vesper` | English | British | Masculine | ✓ |
+| Willow | `willow` | English | Irish | Feminine | ✓ |
+| Stone | `stone` | English | Irish | Masculine | ✓ |
+| Gleam | `gleam` | English | North American | Feminine | ✓ |
+| Meridian | `meridian` | English | North American | Masculine | ✓ |
+| Beacon | `beacon` | English | Filipino | Masculine | |
+| Delta | `delta` | English | Southern U.S. | Feminine | |
+| Cinder | `cinder` | English | Southern U.S. | Masculine | |
+| Bossa | `bossa` | Portuguese | Brazilian | Feminine | ✓ |
+| Tempo | `tempo` | Portuguese | Brazilian | Masculine | ✓ |
+| Nuri | `nuri` | German | | Feminine | ✓ |
+| Juni | `juni` | German | | Feminine | ✓ |
+| Flitz | `flitz` | German | | Masculine | ✓ |
+| Brise | `brise` | French | | Feminine | ✓ |
+| Sillage | `sillage` | French | | Masculine | ✓ |
+| Nira | `nira` | Hindi | | Feminine | ✓ |
+| Harema | `harema` | Japanese | | Feminine | ✓ |
+| Shida | `shida` | Japanese | | Masculine | ✓ |
+| Noeul | `noeul` | Korean | | Feminine | ✓ |
+
+A custom voice from prompt-to-voice or cloning works too: enter its
+`voice_…` id in the picker. The list lives in `prefs/LiveVoices.kt`.
+
 ## Smoke test with logcat
 
 Filter on the `GptLiveClient` and `GptLiveVM` tags. A healthy session with a
