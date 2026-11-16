@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.n15.gptlive"
+    namespace = "com.m15.gptlive"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.n15.gptlive"
+        applicationId = "com.m15.gptlive"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
